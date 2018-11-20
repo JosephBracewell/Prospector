@@ -26,13 +26,13 @@ public class Deck : MonoBehaviour {
 
 	[Header("Set Dynamically")]
 
-	public PT_XMLReader					xmlr;
+	public PT_XMLReader			xmlr;
 	// add from p 569
-	public List<string>					cardNames;
-	public List<Card>					cards;
-	public List<Decorator>				decorators;
-	public List<CardDefinition>			cardDefs;
-	public Transform					deckAnchor;
+	public List<string>			cardNames;
+	public List<Card>			cards;
+	public List<Decorator>			decorators;
+	public List<CardDefinition>		cardDefs;
+	public Transform			deckAnchor;
 	public Dictionary<string, Sprite>	dictSuits;
 
 
